@@ -1,3 +1,9 @@
-h1{
-    color: brown;
+body{
+    background: url('./images/bg-mobile.jpg') no-repeat top center/cover;   
+}
+
+.container{
+    width: 360px;
+    height: 712px;
+    border: 1px solid red;
 }
