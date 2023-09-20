@@ -1,10 +1,21 @@
-body{
-    background: url('./images/bg-mobile.jpg') no-repeat top center/cover;   
+body {
+    background: url('./images/bg-mobile.jpg') no-repeat top center/cover;
+    color: white;
 }
 
-.container{
+.container {
     width: 360px;
-    height: 712px;
-    border: 1px solid red;
-    margin: 15px auto;
+    margin: 15px auto;  
+}
+
+.profile{
+    text-align: center;
+}
+
+.profile img {
+    width: 112px;
+}
+
+.profile p{
+    text-align: center;
 }
