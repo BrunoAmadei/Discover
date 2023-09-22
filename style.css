@@ -12,11 +12,6 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: #fff;
-}
-
 .container {
     border: 1px solid pink;
     width: 360px;
@@ -46,10 +41,15 @@ ul {
     gap: 16px;
 }
 
-ul li {
+ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
     border: 1px solid rgba(255, 255, 255, 0.50);
     border-radius: 8px;
-    padding: 16px 24px;
-    text-align: center;
     background-color: rgba(255, 255, 255, 0.10);
+    padding: 16px 24px;
+
 }
