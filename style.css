@@ -41,7 +41,7 @@ ul {
     gap: 16px;
 }
 
-ul li a{
+ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,4 +52,34 @@ ul li a{
     background-color: rgba(255, 255, 255, 0.10);
     padding: 16px 24px;
 
+    transition: ease-in 0.3s;
+}
+
+ul li a:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    color: #9b9b9b;
+}
+
+.social-links {
+    flex-direction: row;
+    justify-content: center;
+    padding: 24px;
+}
+
+.social-links li a {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+}
+
+.social-links li a:hover{
+    transform: scale(1.2);
+    color:rgba(255, 255, 255, 0.50);
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
 }
