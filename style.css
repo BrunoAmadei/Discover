@@ -6,9 +6,21 @@
     box-sizing: border-box;
 }
 
+:root{
+    --text-color: #fff;
+    --bg-url: url('./images/bg-mobile.jpg');
+    --stroke-color: rgba(255, 255, 255, 0.5);
+}
+
+.light{
+    --text-color: #000;
+    --bg-url: url('./images/bg-mobile-light.jpg');
+    --stroke-color: rgba(0, 0, 0, 0.5)
+}
+
 body {
-    background: url('./images/bg-mobile.jpg') no-repeat top center/cover;
-    color: #fff;
+    background:var(--bg-url) no-repeat top center/cover;
+    color: var(--text-color);
     font-family: 'Inter', sans-serif;
 }
 
@@ -45,9 +57,9 @@ ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: var(--text-color);
     text-decoration: none;
-    border: 1px solid rgba(255, 255, 255, 0.50);
+    border: 1px solid var(--stroke-color);
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.10);
     padding: 16px 24px;
@@ -58,7 +70,7 @@ ul li a {
 ul li a:hover {
     cursor: pointer;
     background: rgba(255, 255, 255, 0.05);
-    border: 1.5px solid #fff;
+    border: 1.5px solid var(--text-color);
 }
 
 .social-links {
