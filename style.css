@@ -10,7 +10,8 @@
     --text-color: #fff;
     --bg-url: url('./images/bg-mobile.jpg');
     --stroke-color: rgba(255, 255, 255, 0.5);
-    --surface-color: rgba(255, 255, 255, 0.1);--surface-color-hover: rgba(255, 255, 255, 0.05);
+    --surface-color: rgba(255, 255, 255, 0.1);
+    --surface-color-hover: rgba(255, 255, 255, 0.05);
     --highlight-color: rgba(255, 255, 255, 0.05);
     --switch-bg: url('./images/MoonStars.svg');
 }
@@ -20,7 +21,7 @@
     --bg-url: url('./images/bg-mobile-light.jpg');
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
-    --surface-color-hover: rgba(0, 0, 0, 0.04);
+    --surface-color-hover: rgba(0, 0, 0, 0.01);
     --highlight-color: rgba(0, 0, 0, 0.1);
     --switch-bg: url('./images/Sun.svg');
 }
@@ -52,13 +53,13 @@ body {
     margin-top: 8px;
 }
 
-.switch{
+.switch {
     width: 64px;
     position: relative;
     margin: 4px auto;
 }
 
-.switch button{
+.switch button {
     width: 32px;
     height: 32px;
     background: #fff var(--switch-bg) no-repeat center;
@@ -72,12 +73,12 @@ body {
 
 }
 
-.light .switch button{
+.light .switch button {
     right: 0;
     left: initial;
 }
 
-.switch span{
+.switch span {
     display: block;
     width: 64px;
     height: 24px;
