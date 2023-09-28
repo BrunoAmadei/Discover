@@ -78,6 +78,16 @@ body {
     left: initial;
 }
 
+.switch button:hover {
+    cursor: pointer;
+    border-radius: 999px;
+    box-shadow: 0px 0px 5px 12px var(--highlight-color);
+}
+
+.light .switch button:hover{
+    box-shadow: 0px 0px 5px 12px var(--highlight-color);
+}
+
 .switch span {
     display: block;
     width: 64px;
