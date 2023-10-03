@@ -85,7 +85,7 @@ body {
     box-shadow: 0px 0px 5px 12px var(--highlight-color);
 }
 
-.light .switch button:hover{
+.light .switch button:hover {
     box-shadow: 0px 0px 5px 12px var(--highlight-color);
 }
 
@@ -151,4 +151,14 @@ footer {
     text-align: center;
     font-size: 14px;
     font-weight: 300;
+}
+
+/*  Media queries */
+@media(min-width: 700px) {
+    :root{
+        --bg-url: url(./images/bg-desktop.jpg);
+    }
+    .light{
+        --bg-url: url(./images/bg-desktop-light.jpg);
+    }
 }
